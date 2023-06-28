@@ -37,7 +37,7 @@ pipeline {
         
         stage ("Helm package") {
             steps {
-                    sh "helm package springboot"
+                    sh "helm package mychart"
                 }
             }
                 
